@@ -1,0 +1,20 @@
+.campo-busca {
+  margin-top: 25px;
+  border: 2px solid var(--lightGray);
+  padding: 5px;
+  border-radius: 25px;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+.campo-busca img {
+  width: 30px;
+}
+
+.campo-busca .input-filtro {
+  border: none;
+  width: 90%;
+  font-size: 14px;
+  font-weight: 600;
+}

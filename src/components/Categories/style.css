@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.categories button {
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.acenderBt{
+  background-color: var(--golden);
+}
+
+.categories button img {
+  width: 20px;
+  height: 20px;
+}
+.categories button span {
+  font-size: 14px;
+  font-weight: 600;
+}
